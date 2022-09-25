@@ -22,7 +22,7 @@ public class Taller {
             System.out.println("Ingresa la placa del Vehiculo");
             vehiculo[a].setPlaca(leer.nextLine());
             System.out.println("Ingresa el Año de Fabricación del Vehículo");
-            vehiculo[a].setAño_Fab(leer.nextInt());
+            vehiculo[a].setAnio_Fab(leer.nextInt());
             System.out.println("\n");
         }
         for(int c=0;c<5;c++){
@@ -31,7 +31,7 @@ public class Taller {
             System.out.println("Modelo: "+vehiculo[c].getModelo());
             System.out.println("Color: "+vehiculo[c].getColor());
             System.out.println("Placa: "+vehiculo[c].getPlaca());
-            System.out.println("Marca: "+vehiculo[c].getAño_Fab()+"\n");
+            System.out.println("Marca: "+vehiculo[c].getAnio_Fab()+"\n");
         }
     }
 }
