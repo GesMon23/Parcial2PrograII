@@ -1,7 +1,7 @@
 package parcial;
 public class Vehículo {
         String Marca, Modelo, Color, Placa;
-        int Año_Fab;
+        int Anio_Fab;
     public String getMarca(){
         return Marca;
     }
@@ -26,10 +26,10 @@ public class Vehículo {
     public void setPlaca(String Placa){
         this.Placa= Placa;
     }
-    public int getAño_Fab(){
-        return Año_Fab;
+    public int getAnio_Fab(){
+        return Anio_Fab;
     }
-    public void setAño_Fab(int Año_Fab){
-        this.Año_Fab= Año_Fab;
+    public void setAnio_Fab(int Anio_Fab){
+        this.Anio_Fab= Anio_Fab;
     }
 }
